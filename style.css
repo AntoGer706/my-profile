@@ -1,0 +1,106 @@
+body {
+	background-color: #f2f4fb;
+	color: black;
+	font-family: 'Lora', serif;
+	text-align: justify;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 0.7;
+	letter-spacing: 1px;
+	font-weight: lighter;
+}
+
+h1, h2, h3 {
+	font-family: 'K2D', sans-serif;
+}
+
+h1 {
+	color: #ff2400;
+	font-weight: 900;
+	letter-spacing: 5px;
+	font-size: 50px;
+}
+
+h2 {
+	color: #db2d43;
+	font-weight: 300
+	text-decoration: sub;
+}
+
+h3 {
+	color: black;
+	font-weight:500;
+	text-decoration: sub;
+}
+
+a {
+	color: #4a9ff5;
+	text-decoration: sub;
+	transition: color 0.3 ease;
+}
+
+a hover: {
+	color: purple;
+	text-decoration: sub;
+}
+#identity {
+	background: #f7f7f7;
+	border: 2px solid black;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	width: 710px;
+	margin: 40px auto;
+}
+#sport {
+	background: #fbf9fa;
+	border: 2px solid black;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	width: 710px;
+	margin: 40px auto;
+}
+#school {
+	background: #fbf9fa;
+	border: 2px solid black;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	width: 710px;
+	margin: 40px auto;
+}
+#cv {
+	background: #fbf9fa;
+	border: 2px solid black;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	width: 710px;
+	margin: 40px auto;
+}
+#socialnetwork {
+	background: #fbf9fa;
+	border: 2px solid black;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	width: 710px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+	.container {
+		width: 710px;
+	}
+}
+@media (max-width: 720px) {
+	.container {
+		width: 500px;
+	}
+}
+@media (max-width: 540px) {
+	.container {
+		width: 300px;
+	}
+}
